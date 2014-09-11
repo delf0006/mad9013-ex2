@@ -1,0 +1,45 @@
+body { 
+	background-color: #fdf6e3;
+}
+header, footer {
+	font-size: 2em;
+}
+ul {
+	font-family: sans-serif; 
+}
+#logo { 
+	border: 2px solid #d04b16;
+}
+.wrapper {
+	background-color: #eee8d5;
+}
+#content , #favs , #facts , #type {
+	color: #93a1a1;
+}
+.wrapper > .dfn {
+	background-color: #b58900; 
+}
+p + strong {
+	color: #fff;
+}
+html body header nav ul li mark {
+	background-color: #719e07;
+}
+A[rel="external"] {
+	background-color: #2694d8;
+}
+ol li:first-child {
+	color: #719e47;
+}
+ol li:last-child{
+	color: #2aa198;
+}
+.type: nth-child (odd){
+	background-color: #657ba3;
+}
+.type: nth-child (even){
+	background-color: #586e75
+}
+.type: nth-child (3n){
+	background-color: #d04b16;
+}
